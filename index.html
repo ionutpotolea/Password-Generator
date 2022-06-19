@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+    <body>
+        <header>
+            <h2>Generate a <span>random password</span></h2>
+            <p>Never use an insecure password again.</p>
+            <form class="cta">
+                <label>
+                    Password length:
+                    <input id="pass-length" type="number" min="8" max="32" value="15">
+                </label>
+                <button type="submit" class="btn" id="btn">
+                    <img src="lightnining-bolt.svg">
+                    <span>Generate passwords</span>
+                </button>
+            </form>
+        </header>
+            <main>
+                <input type="text" placeholder="•••">
+                <input type="text" placeholder="•••">
+                <input type="text" placeholder="•••">
+                <input type="text" placeholder="•••">
+            </main>
+        <script src="index.js"></script>
+    </body>
+</html>

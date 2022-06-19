@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1F2937;
+    color: #fff;
+    padding: 0 3.25rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+header, main {
+    padding: 2.1875rem 0;
+}
+
+header {
+    border-bottom: 1px solid #2F3E53;
+}
+
+header p {
+    color: #D5D4D8;
+    font-size: 1.25rem;
+}
+
+h2 {
+    line-height: 1.1;
+    margin: 5.1875rem 0 0 0;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+p {
+    margin: 0.625rem 0 3.1875rem 0;
+}
+
+h2 span {
+    color: #4ADF86;
+    display: block; 
+}
+
+#btn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background: #10B981;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.75rem 1.0625rem;
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#btn:hover{
+    background: #34D399;
+}
+
+#btn img {
+    margin-right: 0.75rem;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta label {
+    margin: 0 0 1rem;
+}
+
+.cta input{
+    width: 5ch;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, 320px));
+    gap: 1.55rem;
+}
+
+input {
+    background: #273549;
+    color: #55F991;
+    border: 0;
+    border-radius: 6px;
+    padding: .6rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #1F2937;
+    font-size: 1.5em;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
