@@ -55,7 +55,7 @@ function copyToClipboard(e) {
 
     /* Copy the text inside the text field */
     navigator.clipboard.writeText(copyText.value).then(function() {
-    console.log("copied to clipboard!")
+    alert("copied to clipboard!")
     }, function(err) {
     console.log("error!", err)
     });
